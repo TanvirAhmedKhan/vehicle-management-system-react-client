@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header-logo{
+  height: 25px;
+  width: auto;
+}
+
+.vehicle-card {
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  color:#333333;
+  margin:20px 0px;
+}
+.footer{
+  background-color: #333;
+  color:#fff;
+  height: 200px;
+  padding: 30px 0px;
+}
+
+.search-bar-banner{
+  height: 450px;
+  width: 100%;
+  /* background-image: url('images/back.jpg'); */
+  /* background: url('images/7.jpg') center center; */
+  background: linear-gradient(#ef6666ba, rgba(84, 118, 242, 0.37)), url('images/7.jpg') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.search-bar-heading{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.search-bar-heading h1{
+  color: #fff;
+  font-family: 'Monoton', cursive;
+	font-size:65px;
+}
+
+.body-content{
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.card-image{
+  width:100%;
+  height: auto;
+}
+.card-lower-info-box{
+  padding: 12px;
+  background-color: #1D252D;
+  color: #ffffff;
+}
+.vehicle-card-info{
+  padding: 30px 5px;
+}
+
+.ad-box{
+  margin-top: 20px;
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('images/8.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.add-vehicle-form{
+  height: auto;
+  background:#1D252D;
+  color:#fff;
+  padding: 50px;
+  font-size: 16px;
+}
+.add-vehicle-form input{
+  width: 100%;
+  
+}
+.form-control{
+  margin-bottom: 10px !important;
+}
+.add-form-submit-area{
+  height: 100px;
+  background:#1a161d;
+  color:#fff;
+  padding: 30px ;
+  text-align: center;
+}
+.add-vehicle-form-top{
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('images/back.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+
+.add-vehicle-form-top h2{
+  text-align: right;
+  font-family: 'Monoton', cursive;
+  font-size:65px;
+  padding-top:160px;
+}
